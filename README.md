@@ -1,9 +1,5 @@
 # Virufy COVID-19 Open Cough Dataset
 
-<p align="center">
-  <img width="200" src="https://virufy.org/img/logos/virufy-logo.svg">
-</p>
-
 Virufy is a volunteer-run organization uniting the world to build a global artificial intelligence (AI) database of crowdsourced cough sounds to identify patterns that signify respiratory diseases, such as COVID-19.
 
 Our research paper can be found on [arXiv](https://virufy.org/paper). Please cite us if you reference our materials!
@@ -31,5 +27,19 @@ If you'd like to join our community, please fill out [our form](https://forms.gl
 
 You may also contact us at open-data@virufy.org.
 
-## More details
-Please see our website at http://virufy.org/data.
+## Segmentations
+This repo contains other two segmented files from two individual cough segmentatin methods (hysteresis comparator and RMS threshold). See clinical folder for detail.  
+
+## Citation
+For citing virufy-data and manual segmentation (`clinical/segmented`):  
+```
+G. Chaudhari et al., “Virufy: Global Applicability of Crowdsourced and Clinical Datasets 
+for AI Detection of COVID-19 from Cough Audio Samples,” 2020, [Online]. 
+Available: http://arxiv.org/abs/2011.13320.
+```
+For automatic segmentations (`segment` and `simple` directories under `clinical`):
+```
+B.T. Atmaja, Zanjabila, Suyanto, Dhany Arifianto, Akira Sasou.
+Evaluation of Single Cough Segmentations, 2022.
+```
+
